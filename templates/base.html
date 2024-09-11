@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>AlbertSeo</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+
+</head>
+    <body style="background-color: #5A86AD;">
+        <!-- Welcome Header -->
+        <div class="header">
+            <div class = "typewriter">
+                <h1>Hi, I'm Albert!</h1>
+            </div>
+            <p>Welcome to my personal Website.</p>
+        </div>
+
+        <!-- Navigation bar -->
+        <div class="navbar">
+            <a href="/">HOME</a>
+            <a href="/about_me">ABOUT ME</a>
+            <!-- <a href="/experiences">EXPERIENCES</a> -->
+            <a href="/projects">PROJECTS</a>
+            <a href="/contact">CONTACT</a>
+        </div>
+
+        <div>
+            {{ content }}
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+          <a href="https://www.linkedin.com/in/albertjseo/" class="fa fa-linkedin"></a>
+          <a href="https://github.com/albertjseo" class="fa fa-github"></a>
+          <h5>Last Updated: Pseudo Date</h5>
+        </div>
+
+
+    </body>
+</html>
+
+
+
