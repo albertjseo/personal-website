@@ -27,7 +27,12 @@ def aboutme():
     page = render_template("about_me.html")
     return render_template("base.html", content=Markup(page))
 
+
 @app.route('/contact', methods=["GET"])
 def contact():
     page = render_template("contact.html")
     return render_template("base.html", content=Markup(page))
+
+
+if __name__ == '__main__':
+    app.run(debug=True)
