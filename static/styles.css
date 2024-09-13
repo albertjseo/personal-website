@@ -4,11 +4,14 @@ body {
   margin: 0px;
   padding: 0px;
 }
+
 /* Header/logo Title */
 .header {
-  padding: 50px;
-  background: #5a86ad;
+  display: flex;
+  justify-content: space-between;
   text-align: center;
+  padding: 50px 0px;
+  background: #5a86ad;
   color: white;
 }
 
@@ -60,20 +63,11 @@ p {
   color: black;
 }
 
-/* Column container */
-.row {
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-}
-
 /* Main column */
 .main {
-  -ms-flex: 70%; /* IE10 */
-  flex: 70%;
   background-color: white;
   padding: 1px;
+  margin: 0;
 }
 
 .responsive {
@@ -84,14 +78,11 @@ p {
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
 }
 
-/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 700px) {
-  .row {
-    flex-direction: column;
-  }
-}
 
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
 @media screen and (max-width: 400px) {
@@ -153,7 +144,7 @@ p {
 }
 
 /* Footer */
-.footer {
+footer {
   padding: 20px;
   text-align: center;
   background-color: #333;
