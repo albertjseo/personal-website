@@ -4,17 +4,16 @@ body {
   margin: 0px;
   padding: 0px;
 }
-
+/* Header/logo Title */
 header{
+  padding: 50px;
+  background: #5a86ad;
   text-align: center;
   color: white;
 }
 
-/* Header/logo Title */
 .header-main {
-  padding: 80px;
   text-align: center;
-  background: #5a86ad;
   color: white;
 }
 
@@ -200,7 +199,6 @@ footer {
   .footer-main {
     flex-direction: column;
   }
-
 }
 
 
