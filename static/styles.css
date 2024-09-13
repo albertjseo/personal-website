@@ -5,6 +5,11 @@ body {
   padding: 0px;
 }
 
+header{
+  text-align: center;
+  color: white;
+}
+
 /* Header/logo Title */
 .header-main {
   padding: 80px;
