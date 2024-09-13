@@ -5,7 +5,7 @@ body {
   padding: 0px;
 }
 /* Header/logo Title */
-header{
+.header {
   padding: 50px;
   background: #5a86ad;
   text-align: center;
@@ -163,8 +163,7 @@ footer {
 
 .container {
   max-width: 1200px;
-  margin: 0 auto;
-  color: white;
+  margin: 0 auto
 }
 
 .footer-main {
