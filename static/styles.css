@@ -3,6 +3,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0px;
   padding: 0px;
+  height: 100vh;
+  display: flex;
+  max-width: 1440px;
+  flex-direction: column;
 }
 
 /* Header/logo Title */
