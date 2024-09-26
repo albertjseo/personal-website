@@ -1,14 +1,11 @@
 /* Style the body */
-html {
-  height: -webkit-fill-available;
-}
-
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0px;
   padding: 0px;
   display: flex;
   flex-direction: column;
+  height: cal(100 * --vh);
 }
 
 /* Header/logo Title */
@@ -74,6 +71,8 @@ p {
   background-color: white;
   padding: 1px;
   margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .responsive {
