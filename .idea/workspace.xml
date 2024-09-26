@@ -113,7 +113,7 @@
       <option name="presentableId" value="Default" />
       <updated>1726083706814</updated>
       <workItem from="1726083707934" duration="18322000" />
-      <workItem from="1727304289032" duration="2314000" />
+      <workItem from="1727304289032" duration="2606000" />
     </task>
     <task id="LOCAL-00001" summary="Creating Personal-Website Project">
       <option name="closed" value="true" />
@@ -427,7 +427,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727310050885</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Updated main sizing">
+      <option name="closed" value="true" />
+      <created>1727378988653</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1727378988653</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
