@@ -69,10 +69,18 @@ p {
   padding: 1px;
   margin: 0;
 }
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+/* Responsive layout - when the screen is less than 400px wide, make main font size change */
 @media screen and (max-width: 400px) {
   .main {
     font-size: 3.2vw;
+  }
+
+  .header h3 {
+  font-size: 3.2vw;
+  }
+
+  .header h4 {
+  font-size: 3.2vw;
   }
 }
 
