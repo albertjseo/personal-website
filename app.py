@@ -63,6 +63,11 @@ def project5():
     page = render_template("individual_projects/drug_discovery.html")
     return render_template("base.html", content=Markup(page))
 
+@app.route('/sample_survey', methods=["GET"])
+def project6():
+    page = render_template("individual_projects/sample_survey.html")
+    return render_template("base.html", content=Markup(page))
+
 
 if __name__ == '__main__':
     app.run(debug=True)
